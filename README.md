@@ -1,1 +1,1 @@
-# KDD 2026
+# KDD 2026 Finance Day

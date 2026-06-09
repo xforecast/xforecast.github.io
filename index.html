@@ -146,60 +146,13 @@
                 View Details
               </a>
             </div>
-
-            <div class="mt-6 flex flex-wrap gap-3 text-sm text-gray-400">
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
-                <span data-lucide="trophy" class="w-4 h-4 text-[#E848A6]"></span>
-                $5,000 Prize Pool
-              </span>
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
-                <span data-lucide="calendar-range" class="w-4 h-4 text-[#B43AEA]"></span>
-                Jun–Jul 2026
-              </span>
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
-                <span data-lucide="database" class="w-4 h-4 text-[#FA906F]"></span>
-                FinTexTS
-              </span>
-            </div>
           </div>
 
           <div class="lg:col-span-5">
             <div class="glass-card rounded-3xl p-6 border border-white/10 shadow-2xl shadow-pink-500/10">
-              <div class="flex items-center justify-between">
-                <div class="text-sm text-gray-300 font-semibold tracking-wide">Highlights</div>
-                <span class="text-xs px-2 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400">
-                  Data Challenge
-                </span>
-              </div>
+              <div class="text-sm text-gray-300 font-semibold tracking-wide">At a Glance</div>
 
-              <ul class="mt-4 space-y-3 text-gray-300 text-sm">
-                <li class="flex gap-3">
-                  <span data-lucide="trophy" class="w-4 h-4 mt-0.5 text-[#E848A6]"></span>
-                  <span><b>Hosted on Kaggle</b> as an open competition</span>
-                </li>
-
-                <li class="flex gap-3">
-                  <span data-lucide="newspaper" class="w-4 h-4 mt-0.5 text-[#B43AEA]"></span>
-                  <span><b>News-grounded forecasting</b> with financial text and market signals</span>
-                </li>
-
-                <li class="flex gap-3">
-                  <span data-lucide="database" class="w-4 h-4 mt-0.5 text-[#FA906F]"></span>
-                  <span><b>Data sources:</b> FinTexTS dataset</span>
-                </li>
-
-                <li class="flex gap-3">
-                  <span data-lucide="layers" class="w-4 h-4 mt-0.5 text-[#6E4AEF]"></span>
-                  <span><b>Multimodal learning</b>: time-series + text</span>
-                </li>
-
-                <li class="flex gap-3">
-                  <span data-lucide="target" class="w-4 h-4 mt-0.5 text-[#E848A6]"></span>
-                  <span>Predict <b>closing prices 4 weeks ahead</b></span>
-                </li>
-              </ul>
-
-              <div class="mt-6 grid grid-cols-2 gap-3 text-sm">
+              <div class="mt-4 grid grid-cols-2 gap-3 text-sm">
                 <div class="glass-card rounded-2xl p-4">
                   <div class="text-gray-400 text-xs uppercase tracking-wide">Prize Pool</div>
                   <div class="mt-1 font-semibold text-white text-base">$5,000</div>
@@ -226,11 +179,6 @@
                   <div class="mt-1 font-semibold text-white text-base">Top 100 Stocks</div>
                 </div>
               </div>
-
-              <p class="mt-5 text-xs text-gray-400 leading-relaxed">
-                A multimodal forecasting challenge built around realistic financial prediction settings,
-                including paired stock-price and news data.
-              </p>
             </div>
           </div>
         </div>
@@ -256,61 +204,16 @@
 
           <p class="mt-4 text-sm leading-relaxed">
             The challenge explores how modern AI models can combine
-            <b>financial time-series data</b> with <b>unstructured news text</b>
-            to improve stock forecasting. Participants are given historical stock prices
-            together with associated financial news and are asked to predict
-            <b>future closing prices four weeks ahead</b>.
+            <b>financial time-series</b> with <b>unstructured news text</b> to improve
+            stock forecasting. Participants receive historical prices paired with associated
+            news and predict <b>closing prices four weeks ahead</b> for the
+            <b>top 100 stocks by market capitalization</b>.
           </p>
 
           <p class="mt-4 text-sm leading-relaxed">
-            The challenge focuses on <b>100 stocks by market capitalization</b> and is designed
-            to encourage research on multimodal learning, representation learning, and robust
-            forecasting methods for financial markets.
+            It is designed to encourage research on multimodal learning, representation
+            learning, and robust forecasting methods for financial markets.
           </p>
-
-          <div class="mt-5 grid sm:grid-cols-2 gap-3 text-sm">
-            <div class="glass-card rounded-xl p-4">
-              <div class="flex items-center gap-2 text-white font-medium">
-                <span data-lucide="database" class="w-4 h-4 text-[#B43AEA]"></span>
-                Dataset
-              </div>
-              <p class="mt-2 text-gray-400">
-                Historical stock prices paired with financial news,
-                provided as the <b>FinTexTS</b> dataset for structured financial text
-                and time-series alignment.
-              </p>
-            </div>
-
-            <div class="glass-card rounded-xl p-4">
-              <div class="flex items-center gap-2 text-white font-medium">
-                <span data-lucide="layers" class="w-4 h-4 text-[#E848A6]"></span>
-                Modality
-              </div>
-              <p class="mt-2 text-gray-400">
-                Multimodal forecasting with numerical signals and textual context.
-              </p>
-            </div>
-
-            <div class="glass-card rounded-xl p-4">
-              <div class="flex items-center gap-2 text-white font-medium">
-                <span data-lucide="target" class="w-4 h-4 text-[#FA906F]"></span>
-                Task
-              </div>
-              <p class="mt-2 text-gray-400">
-                Predict stock closing prices <b>4 weeks ahead</b>.
-              </p>
-            </div>
-
-            <div class="glass-card rounded-xl p-4">
-              <div class="flex items-center gap-2 text-white font-medium">
-                <span data-lucide="bar-chart-3" class="w-4 h-4 text-[#6E4AEF]"></span>
-                Evaluation
-              </div>
-              <p class="mt-2 text-gray-400">
-                Ranked by a <b>Hit Rate</b>-based evaluation metric.
-              </p>
-            </div>
-          </div>
         </div>
 
         <!-- Right: Key Details -->
@@ -319,18 +222,37 @@
 
           <ul class="mt-4 space-y-4 text-sm">
             <li class="flex gap-3">
-              <span data-lucide="calendar-range" class="w-4 h-4 mt-0.5 text-[#6E4AEF]"></span>
+              <span data-lucide="target" class="w-4 h-4 mt-0.5 text-[#FA906F]"></span>
               <div>
-                <div class="font-medium text-white">Training / Evaluation</div>
-                <div class="text-gray-400">Training: 2019–2022 · Evaluation: 2023</div>
+                <div class="font-medium text-white">Task</div>
+                <div class="text-gray-400">Predict closing prices 4 weeks ahead</div>
               </div>
             </li>
 
             <li class="flex gap-3">
-              <span data-lucide="briefcase" class="w-4 h-4 mt-0.5 text-[#B43AEA]"></span>
+              <span data-lucide="database" class="w-4 h-4 mt-0.5 text-[#B43AEA]"></span>
               <div>
-                <div class="font-medium text-white">Universe</div>
-                <div class="text-gray-400">Top 100 stocks by market capitalization</div>
+                <div class="font-medium text-white">Data</div>
+                <div class="text-gray-400">
+                  <a href="https://arxiv.org/abs/2603.02702" target="_blank" class="underline hover:text-pink-300">FinTexTS</a>
+                  — stock prices paired with financial news
+                </div>
+              </div>
+            </li>
+
+            <li class="flex gap-3">
+              <span data-lucide="briefcase" class="w-4 h-4 mt-0.5 text-[#6E4AEF]"></span>
+              <div>
+                <div class="font-medium text-white">Training / Evaluation</div>
+                <div class="text-gray-400">Train 2019–2022 · Eval 2023 · Top 100 stocks</div>
+              </div>
+            </li>
+
+            <li class="flex gap-3">
+              <span data-lucide="bar-chart-3" class="w-4 h-4 mt-0.5 text-[#E848A6]"></span>
+              <div>
+                <div class="font-medium text-white">Evaluation</div>
+                <div class="text-gray-400">Hit Rate–based metric</div>
               </div>
             </li>
 
@@ -343,31 +265,13 @@
             </li>
 
             <li class="flex gap-3">
-              <span data-lucide="clock-3" class="w-4 h-4 mt-0.5 text-[#FA906F]"></span>
+              <span data-lucide="shield-check" class="w-4 h-4 mt-0.5 text-[#FA906F]"></span>
               <div>
-                <div class="font-medium text-white">Timeline</div>
-                <div class="text-gray-400">Start: Jun 8, 2026 · Deadline: Jul 30, 2026</div>
-              </div>
-            </li>
-
-            <li class="flex gap-3">
-              <span data-lucide="shield-check" class="w-4 h-4 mt-0.5 text-[#E848A6]"></span>
-              <div>
-                <div class="font-medium text-white">Participation Note</div>
-                <div class="text-gray-400">
-                  Access is restricted because the challenge uses proprietary news data.
-                </div>
+                <div class="font-medium text-white">Participation</div>
+                <div class="text-gray-400">Restricted — uses proprietary news data</div>
               </div>
             </li>
           </ul>
-
-          <div class="mt-6 rounded-xl border border-white/10 bg-white/5 p-4">
-            <div class="text-xs uppercase tracking-wide text-gray-400">Quick Summary</div>
-            <p class="mt-2 text-sm text-gray-300 leading-relaxed">
-              Train on paired stock-price and news data, then predict future stock prices
-              under a realistic multimodal financial forecasting setup.
-            </p>
-          </div>
         </div>
       </div>
     </section>

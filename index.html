@@ -196,14 +196,24 @@
           <p class="mt-4 text-sm leading-relaxed">
             The challenge explores how modern AI models can combine
             <b>financial time-series</b> with <b>unstructured news text</b> to improve
-            stock forecasting. Participants receive historical prices paired with associated
-            news and predict <b>closing prices four weeks ahead</b> for the
-            <b>top 100 stocks by market capitalization</b>.
+            stock forecasting. Participants receive historical price data for the
+            <b>top 100 stocks by market capitalization</b>, paired with news articles
+            associated with each stock and trading date from the
+            <a href="https://arxiv.org/abs/2603.02702" target="_blank" class="underline hover:text-pink-300"><b>FinTexTS</b></a> dataset.
           </p>
 
           <p class="mt-4 text-sm leading-relaxed">
-            It is designed to encourage research on multimodal learning, representation
-            learning, and robust forecasting methods for financial markets.
+            Models must leverage both past price dynamics and the associated news to predict
+            <b>closing prices four weeks ahead</b>. For example, given all price and news data
+            up to <b>December 1, 2023</b>, a model is asked to predict the stock price on
+            <b>December 29, 2023</b>.
+          </p>
+
+          <p class="mt-4 text-sm leading-relaxed">
+            By promoting <b>news-grounded forecasting</b>, the challenge aims to bridge
+            structured financial time-series with unstructured textual information, advancing
+            multimodal and representation-learning methods for more informative and robust
+            financial prediction systems.
           </p>
         </div>
 
